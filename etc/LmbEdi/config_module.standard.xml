@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+    idcanal=""
+    idlang=""
+    code=""
+    RACINE_URL=""
+    SITE_DISTANT=""
+    TABLE_PREFIX=" _DB_PREFIX_"
+    DIR_CANAL="app/code/"
+    URL_PLUGIN=""
+    LOG_PREFIX="LmbEdi\trace_"
+    mailalert=" "
+    lastalert="1512547791"
+/>

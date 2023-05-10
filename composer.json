@@ -1,0 +1,20 @@
+{
+    "name": "LundiMatin/EDI",
+    "description": "Connecteur Magento 2 / LMB",
+    "type": "project",
+    "license": "Tout droits résérvés à Lundi Matin SA",
+    "authors": [
+        {
+            "name": "Cédric P",
+            "email": "pain.cedric@lundimatin.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "commentaire-autoload": {
+        "psr-4": {
+            "LUNDIMATIN\\Androtrad\\": ""
+        },
+        "files": ["Helper/HelperFunctions.php"]
+    }
+}
