@@ -31,7 +31,7 @@ define('EVENEMENTS_POSSIBLES', serialize(
 define('LMBEDI_PLUGIN_FILE', __FILE__);
 define('LMBEDI_PLUGIN_BASENAME', basename(__FILE__));
 define('LMBEDI_PLUGIN_DIR', dirname(__FILE__) . '/../'); //$directory::APP 
-define('LMBEDI_LOG_DIR', __DIR__ . '/../../../../../var/log/LmbEdi/'); /* BP . '/' . $directory::getDefaultConfig()['log']['path'] . '/LmbEdi/'); //define('LMBEDI_LOG_DIR', BP . '/' . $directory::getDefaultConfig()['log']['path'] . '/LmbEdi/'); */
+define('LMBEDI_LOG_DIR', __DIR__ . '/../../../../var/log/LmbEdi/'); /* BP . '/' . $directory::getDefaultConfig()['log']['path'] . '/LmbEdi/'); //define('LMBEDI_LOG_DIR', BP . '/' . $directory::getDefaultConfig()['log']['path'] . '/LmbEdi/'); */
 
 final class LmbEdi {
 
