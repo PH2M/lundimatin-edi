@@ -1,7 +1,7 @@
 {
     "name": "lundimatin/edi",
     "description": "Connecteur Magento 2 / LMB",
-    "type": "project",
+    "type": "magento2-module",
     "license": "Tout droits résérvés à Lundi Matin SA",
     "authors": [
         {
@@ -9,12 +9,13 @@
             "email": "pain.cedric@lundimatin.fr"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
-    "commentaire-autoload": {
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
         "psr-4": {
-            "LUNDIMATIN\\Androtrad\\": ""
+            "LundiMatin\\EDI\\": ""
         },
-        "files": ["Helper/HelperFunctions.php"]
+        "files": ["registration.php"]
     }
 }
