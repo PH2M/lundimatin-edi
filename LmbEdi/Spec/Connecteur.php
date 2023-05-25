@@ -17,7 +17,7 @@ abstract class Connecteur {
     const LMB_CORRESPONDANCE_CODE_ARTICLE_SIMPLE = 1;
     
     protected function shopInit() {
-        require_once __DIR__ . '/../../../../../autoload.php';
+        require_once __DIR__ . '/../../../../autoload.php';
     }
 
     protected function getObjectManager() {
